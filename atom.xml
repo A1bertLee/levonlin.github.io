@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://levonlin.info/"/>
-  <updated>2016-08-12T13:59:32.000Z</updated>
+  <updated>2016-08-12T15:40:58.000Z</updated>
   <id>http://levonlin.info/</id>
   
   <generator uri="http://hexo.io/">Hexo</generator>
@@ -15,7 +15,7 @@
     <link href="http://levonlin.info/2016/08/06/%E3%80%90%E8%AF%91%E3%80%91%E8%A1%A8%E5%8D%95%E7%BB%84%E4%BB%B6%E7%9A%84%E5%B1%9E%E6%80%A7%E5%85%BC%E5%AE%B9%E6%80%A7%E8%A1%A8/"/>
     <id>http://levonlin.info/2016/08/06/【译】表单组件的属性兼容性表/</id>
     <published>2016-08-06T12:31:37.000Z</published>
-    <updated>2016-08-12T13:59:32.000Z</updated>
+    <updated>2016-08-12T15:40:58.000Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <ul>
@@ -439,7 +439,7 @@
     <link href="http://levonlin.info/2016/06/29/%E3%80%90%E8%AF%91%E3%80%91HTML%E8%A1%A8%E5%8D%95%E9%AB%98%E7%BA%A7%E6%A0%B7%E5%BC%8F/"/>
     <id>http://levonlin.info/2016/06/29/【译】HTML表单高级样式/</id>
     <published>2016-06-29T07:44:25.000Z</published>
-    <updated>2016-08-06T12:34:08.000Z</updated>
+    <updated>2016-08-12T15:40:58.000Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <ul>
@@ -697,7 +697,7 @@
     <link href="http://levonlin.info/2016/06/05/%E3%80%90%E8%AF%91%E3%80%91HTML%E8%A1%A8%E5%8D%95%E6%A0%B7%E5%BC%8F/"/>
     <id>http://levonlin.info/2016/06/05/【译】HTML表单样式/</id>
     <published>2016-06-05T06:13:20.000Z</published>
-    <updated>2016-07-31T08:18:41.000Z</updated>
+    <updated>2016-08-12T15:40:58.000Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <ul>
@@ -805,7 +805,7 @@
     <link href="http://levonlin.info/2016/05/24/%E3%80%90%E8%AF%91%E3%80%91%E5%8E%9F%E7%94%9F%E8%A1%A8%E5%8D%95%E7%BB%84%E4%BB%B6/"/>
     <id>http://levonlin.info/2016/05/24/【译】原生表单组件/</id>
     <published>2016-05-24T09:52:28.000Z</published>
-    <updated>2016-07-31T08:18:41.000Z</updated>
+    <updated>2016-08-12T15:40:58.000Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <ul>
@@ -2088,7 +2088,7 @@
     <link href="http://levonlin.info/2016/05/18/%E7%99%BE%E5%BA%A6%E9%9D%A2%E8%AF%95%E7%9A%84%E6%80%BB%E7%BB%93/"/>
     <id>http://levonlin.info/2016/05/18/百度面试的总结/</id>
     <published>2016-05-18T12:10:40.000Z</published>
-    <updated>2016-07-31T08:18:41.000Z</updated>
+    <updated>2016-08-12T15:40:58.000Z</updated>
     
     <content type="html"><![CDATA[<p>今天接到百度的电话面试了，人生中第一次电话面试啊，感觉有很多做不好的地方，必须来好好总结整理下。</p>
 <h2 id="关于面试准备"><a href="#关于面试准备" class="headerlink" title="关于面试准备"></a>关于面试准备</h2><p>之前由于一直没有消息，还以为自己笔试没通过来着，直到昨天晚上偶然翻了下才知道自己被安排面试了。而且一直都没有好好刷过面试题，本来还想趁这几天好好查漏补缺下的，结果今天就来了电话。</p>
@@ -2210,7 +2210,7 @@
     <link href="http://levonlin.info/2016/05/14/%E5%8E%9F%E7%94%9Fjs%E7%BB%83%E4%B9%A0%E9%A2%98-%E6%9D%82%E9%A1%B9-md/"/>
     <id>http://levonlin.info/2016/05/14/原生js练习题-杂项-md/</id>
     <published>2016-05-14T07:17:44.000Z</published>
-    <updated>2016-07-31T08:18:41.000Z</updated>
+    <updated>2016-08-12T15:40:58.000Z</updated>
     
     <content type="html"><![CDATA[<p>最后一篇了，来做几个查漏补缺的小练习吧：</p>
 <h2 id="0x1-js条件注释-仅IE执行"><a href="#0x1-js条件注释-仅IE执行" class="headerlink" title="0x1 js条件注释 仅IE执行"></a>0x1 js条件注释 仅IE执行</h2><p>实现效果：</p>
@@ -2290,7 +2290,7 @@
     <link href="http://levonlin.info/2016/05/13/%E5%85%83%E7%B4%A0auto%E5%AE%BD%E9%AB%98%E7%9A%84%E5%BD%B1%E5%93%8D%E5%9B%A0%E7%B4%A0/"/>
     <id>http://levonlin.info/2016/05/13/元素auto宽高的影响因素/</id>
     <published>2016-05-13T11:13:38.000Z</published>
-    <updated>2016-08-06T13:51:46.000Z</updated>
+    <updated>2016-08-12T15:40:58.000Z</updated>
     
     <content type="html"><![CDATA[<p>我们知道，元素在没有设置宽高的情况下，默认的宽高值都为<code>auto</code>。而这个<code>auto</code>到底是如何让元素自动拥有宽高的呢，也就是说，元素的宽度和高度到底会受到什么因素的影响？本文将通过一个例子来对这一问题一探究竟，HTML结构和初始css如下：</p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"container"</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"test"</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></div></pre></td></tr></table></figure>
@@ -2365,7 +2365,7 @@
     <link href="http://levonlin.info/2016/05/03/%E3%80%90%E8%AF%91%E3%80%91%E6%80%8E%E4%B9%88%E6%A0%B7%E6%9E%84%E5%BB%BAHTML%E8%A1%A8%E5%8D%95/"/>
     <id>http://levonlin.info/2016/05/03/【译】怎么样构建HTML表单/</id>
     <published>2016-05-03T08:04:54.000Z</published>
-    <updated>2016-07-31T08:18:41.000Z</updated>
+    <updated>2016-08-12T15:40:58.000Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <ul>
@@ -2987,7 +2987,7 @@
     <link href="http://levonlin.info/2016/04/28/%E3%80%90%E8%AF%91%E3%80%91HTML%E8%A1%A8%E5%8D%95%E6%8C%87%E5%8D%97-%E7%AC%AC%E4%B8%80%E4%B8%AAHTML%E8%A1%A8%E5%8D%95/"/>
     <id>http://levonlin.info/2016/04/28/【译】HTML表单指南-第一个HTML表单/</id>
     <published>2016-04-28T11:30:09.000Z</published>
-    <updated>2016-07-31T08:18:41.000Z</updated>
+    <updated>2016-08-12T15:40:58.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>这个系列译自<a href="https://developer.mozilla.org/zh-CN/docs/Web/Guide/HTML/Forms" target="_blank" rel="external">mdn上的一份表单指南</a>，原文详尽阐述了表单相关的基础知识。而表单作为一个经典的页面交互方式，是每个前端工程师绕不开的话题，通过翻译这个系列的文章既是有助于扫清自己的知识盲区，也希望借此能让更多人受惠吧~</p>
 <p>先列下目录：</p>
@@ -3113,7 +3113,7 @@
     <link href="http://levonlin.info/2016/04/27/textContent%E5%92%8CinnerText%E5%B1%9E%E6%80%A7/"/>
     <id>http://levonlin.info/2016/04/27/textContent和innerText属性/</id>
     <published>2016-04-27T11:22:10.000Z</published>
-    <updated>2016-07-31T08:18:41.000Z</updated>
+    <updated>2016-08-12T15:40:58.000Z</updated>
     
     <content type="html"><![CDATA[<p>在DOM操作中，我们如果要获取和修改节点的的文本，就离不开<code>textContent</code>或<code>innerText</code>属性。其中<code>textContent</code>作为标准方法，但无奈要IE8+；而<code>innerText</code>属性最近也被火狐支持了，已经成了不是标准的标准（<a href="http://caniuse.com/#search=innerText" target="_blank" rel="external">参考</a>）。也就是说，如果只考虑最新浏览器的话这两个方法都是可以使用的，那他们到底使用时有何不同呢？先上代码：</p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">"test"</span> <span class="attr">class</span>=<span class="string">"test"</span>&gt;</span>test<span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">"display:none"</span>&gt;</span><span class="tag">&lt;<span class="name">span</span>&gt;</span>test<span class="tag">&lt;/<span class="name">span</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span><span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="undefined">hi</span><span class="tag">&lt;/<span class="name">style</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span> </div><div class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span>&gt;</span><span class="undefined"></span></div><div class="line">    var testDiv = document.getElementById('test');</div><div class="line">    console.log(testDiv.textContent);</div><div class="line">    console.log(testDiv.innerText);</div><div class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div></pre></td></tr></table></figure>
@@ -3147,7 +3147,7 @@
     <link href="http://levonlin.info/2016/04/27/%E5%8E%9F%E7%94%9Fjs%E7%BB%83%E4%B9%A0%E9%A2%98-%E7%AC%AC%E5%85%AD%E8%AF%BE/"/>
     <id>http://levonlin.info/2016/04/27/原生js练习题-第六课/</id>
     <published>2016-04-27T04:55:15.000Z</published>
-    <updated>2016-07-31T08:18:41.000Z</updated>
+    <updated>2016-08-12T15:40:58.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="0x1完美拖拽"><a href="#0x1完美拖拽" class="headerlink" title="0x1完美拖拽"></a>0x1完美拖拽</h2><p>实现效果：</p>
 <p></p><p data-height="300" data-theme-id="17410" data-slug-hash="GZYNGW" data-default-tab="result" data-user="levonlin" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/levonlin/pen/GZYNGW/" target="_blank" rel="external">6-01完美拖动</a> by levonlin (<a href="http://codepen.io/levonlin" target="_blank" rel="external">@levonlin</a>) on <a href="http://codepen.io" target="_blank" rel="external">CodePen</a>.</p><p></p>
@@ -3229,7 +3229,7 @@
     <link href="http://levonlin.info/2016/04/25/css%E7%9A%84%E6%A0%B7%E5%BC%8F%E4%BC%98%E5%85%88%E7%BA%A7/"/>
     <id>http://levonlin.info/2016/04/25/css的样式优先级/</id>
     <published>2016-04-25T09:48:39.000Z</published>
-    <updated>2016-07-31T08:18:41.000Z</updated>
+    <updated>2016-08-12T15:40:58.000Z</updated>
     
     <content type="html"><![CDATA[<p>前几天做百度的笔试题，第一题就是关于css优先级的，虽然知道一些规则，但碰上把各条规则相互组合就懵逼了，所以还是得来好好总结一下的。</p>
 <h2 id="首要原则"><a href="#首要原则" class="headerlink" title="首要原则"></a>首要原则</h2><p>就两条：</p>
@@ -3295,7 +3295,7 @@
     <link href="http://levonlin.info/2016/04/13/%E5%8E%9F%E7%94%9Fjs%E7%BB%83%E4%B9%A0%E9%A2%98-%E7%AC%AC%E4%BA%94%E8%AF%BE/"/>
     <id>http://levonlin.info/2016/04/13/原生js练习题-第五课/</id>
     <published>2016-04-13T09:27:02.000Z</published>
-    <updated>2016-07-31T08:18:41.000Z</updated>
+    <updated>2016-08-12T15:40:58.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="0x1模拟select控件"><a href="#0x1模拟select控件" class="headerlink" title="0x1模拟select控件"></a>0x1模拟select控件</h2><p>实现效果：</p>
 <p></p><p data-height="257" data-theme-id="17410" data-slug-hash="yOKeqm" data-default-tab="result" data-user="levonlin" class="codepen">See the Pen <a href="http://codepen.io/levonlin/pen/yOKeqm/" target="_blank" rel="external">5-01模拟select控件</a> by levonlin (<a href="http://codepen.io/levonlin" target="_blank" rel="external">@levonlin</a>) on <a href="http://codepen.io" target="_blank" rel="external">CodePen</a>.</p><p></p>
@@ -3375,7 +3375,7 @@
     <link href="http://levonlin.info/2016/03/24/%E5%8E%9F%E7%94%9Fjs%E7%BB%83%E4%B9%A0%E9%A2%98-%E7%AC%AC%E5%9B%9B%E8%AF%BE/"/>
     <id>http://levonlin.info/2016/03/24/原生js练习题-第四课/</id>
     <published>2016-03-24T07:50:26.000Z</published>
-    <updated>2016-07-31T08:18:41.000Z</updated>
+    <updated>2016-08-12T15:40:58.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="0x1setTimeout应用"><a href="#0x1setTimeout应用" class="headerlink" title="0x1setTimeout应用"></a>0x1setTimeout应用</h2><p>实现效果：</p>
 <p></p><p data-height="257" data-theme-id="17410" data-slug-hash="yOoPNd" data-default-tab="result" data-user="levonlin" class="codepen">See the Pen <a href="http://codepen.io/levonlin/pen/yOoPNd/" target="_blank" rel="external">4-01setTimeout应用</a> by levonlin (<a href="http://codepen.io/levonlin" target="_blank" rel="external">@levonlin</a>) on <a href="http://codepen.io" target="_blank" rel="external">CodePen</a>.</p><p></p>
@@ -3468,7 +3468,7 @@
     <link href="http://levonlin.info/2016/03/14/%E5%8E%9F%E7%94%9Fjs%E7%BB%83%E4%B9%A0%E9%A2%98-%E7%AC%AC%E4%B8%89%E8%AF%BE/"/>
     <id>http://levonlin.info/2016/03/14/原生js练习题-第三课/</id>
     <published>2016-03-14T09:34:53.000Z</published>
-    <updated>2016-07-31T08:18:41.000Z</updated>
+    <updated>2016-08-12T15:40:58.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="0x1用typeof查看数据类型"><a href="#0x1用typeof查看数据类型" class="headerlink" title="0x1用typeof查看数据类型"></a>0x1用typeof查看数据类型</h2><p>略过，不过<code>typeof</code>用来判断数据类型是不太靠谱的，尤其是涉及到引用类型的时候，除非是要检测一个变量是否有定义，否则最好采用<code>Object.prototype.toString</code>方法。</p>
 <h2 id="0x2用parseInt解析数字，并求和"><a href="#0x2用parseInt解析数字，并求和" class="headerlink" title="0x2用parseInt解析数字，并求和"></a>0x2用parseInt解析数字，并求和</h2><p>实现效果：</p>
@@ -3538,7 +3538,7 @@
     <link href="http://levonlin.info/2016/03/11/%E8%A1%A8%E5%8D%95%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/"/>
     <id>http://levonlin.info/2016/03/11/表单知识总结/</id>
     <published>2016-03-11T10:35:59.000Z</published>
-    <updated>2016-07-31T08:18:41.000Z</updated>
+    <updated>2016-08-12T15:40:58.000Z</updated>
     
     <content type="html"><![CDATA[<p>表单是前端交互的重要部分，这里总结了我在使用表单元素时的一些经验和遇到的问题。</p>
 <h2 id="记得设置元素的name属性"><a href="#记得设置元素的name属性" class="headerlink" title="记得设置元素的name属性"></a>记得设置元素的name属性</h2><p>一个我最近犯的错：<code>input</code>元素不设置<code>name</code>，以为设置了<code>type</code>就自动单选了，光看外表的结果自然被打脸。。。</p>
@@ -3575,7 +3575,7 @@
     <link href="http://levonlin.info/2016/03/09/%E6%8A%8A%E5%8D%9A%E5%AE%A2%E4%BB%8Egitcafe%E8%BF%81%E7%A7%BB%E5%88%B0coding/"/>
     <id>http://levonlin.info/2016/03/09/把博客从gitcafe迁移到coding/</id>
     <published>2016-03-09T08:42:57.000Z</published>
-    <updated>2016-07-31T08:18:41.000Z</updated>
+    <updated>2016-08-12T15:40:58.000Z</updated>
     
     <content type="html"><![CDATA[<p>最近gitcafe被coding收购了，gitcafe上的所有项目很快就要被清空。而官方给用户的出路就是迁移到新东家coding，虽然听到这消息挺烦的，但作为免费用户也不好说什么。而且听说coding的服务要比gitcafe稳定得多，这样也好，希望不会像gitcafe一样隔三差五就访问不了吧。。。接下来，我就记录下我迁移的过程：</p>
 <h2 id="coding-pages"><a href="#coding-pages" class="headerlink" title="coding-pages"></a>coding-pages</h2><p>首先在gitcafe按官方指示进行项目一键迁移，把所有仓库都导到coding上去，这一步倒是很快，如果没有使用页面服务什么的就到此为止了。但是对于我这种原来把博客也托管在gitcafe上面的，还得再去了解了解<a href="https://coding.net/help/doc/pages/index.html" target="_blank" rel="external">coding上pages服务</a>。</p>
@@ -3604,7 +3604,7 @@
     <link href="http://levonlin.info/2016/03/06/%E5%8E%9F%E7%94%9Fjs%E7%BB%83%E4%B9%A0%E9%A2%98-%E7%AC%AC%E4%BA%8C%E8%AF%BE%EF%BC%88%E4%B8%8B%EF%BC%89/"/>
     <id>http://levonlin.info/2016/03/06/原生js练习题-第二课（下）/</id>
     <published>2016-03-06T06:00:13.000Z</published>
-    <updated>2016-07-31T08:18:41.000Z</updated>
+    <updated>2016-08-12T15:40:58.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="0x1播放列表收缩展开"><a href="#0x1播放列表收缩展开" class="headerlink" title="0x1播放列表收缩展开"></a>0x1播放列表收缩展开</h2><p>实现效果：</p>
 <p></p><p data-height="257" data-theme-id="17410" data-slug-hash="XdmwPW" data-default-tab="result" data-user="levonlin" class="codepen">See the Pen <a href="http://codepen.io/levonlin/pen/XdmwPW/" target="_blank" rel="external">2-09播放列表收缩展开</a> by levonlin (<a href="http://codepen.io/levonlin" target="_blank" rel="external">@levonlin</a>) on <a href="http://codepen.io" target="_blank" rel="external">CodePen</a>.</p><p></p>
@@ -3670,7 +3670,7 @@
     <link href="http://levonlin.info/2016/03/02/%E7%94%A8%E8%87%AA%E5%AE%9A%E4%B9%89%E7%9A%84%E6%8B%96%E6%94%BE%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E6%B1%89%E8%AF%BA%E5%A1%94%E6%B8%B8%E6%88%8F/"/>
     <id>http://levonlin.info/2016/03/02/用自定义的拖放实现一个汉诺塔游戏/</id>
     <published>2016-03-02T09:50:15.000Z</published>
-    <updated>2016-07-31T08:18:41.000Z</updated>
+    <updated>2016-08-12T15:40:58.000Z</updated>
     
     <content type="html"><![CDATA[<p>做这个汉诺塔游戏的想法，来自于几个月前做<a href="https://github.com/baidu-ife/ife" target="_blank" rel="external">百度IFE</a>第一期的一个题目，题目要求在两个容器间实现子元素的相互拖拽效果。当时我就突发奇想：容器看成柱子，子元素看成盘子，再加一点限制底下盘子移动的判断和胜负的判断，不就和经典的<a href="https://en.wikipedia.org/wiki/Tower_of_Hanoi" target="_blank" rel="external">汉诺塔游戏</a>没什么两样吗？</p>
 <p>和原题一样，做这游戏的难点就是拖放效果的实现，虽然用H5的原生拖放很容易实现，但是浏览器的兼容却不太好（IE10以下没有实现<code>draggable</code>属性，只有图片等一些特殊元素是可以拖动的）。于是当时还很naive的我用十分猥琐的鼠标事件套鼠标事件，艰难地实现了一个还能跑的程序，但是低水平的代码实在是太难看了（以至于我这次想重新实现一遍都得看好久）。</p>
@@ -3697,7 +3697,7 @@
     <link href="http://levonlin.info/2016/03/02/%E5%89%8D%E7%AB%AF%E7%A2%8E%E8%AF%AD%EF%BC%886%EF%BC%89/"/>
     <id>http://levonlin.info/2016/03/02/前端碎语（6）/</id>
     <published>2016-03-02T09:46:52.000Z</published>
-    <updated>2016-07-31T08:18:41.000Z</updated>
+    <updated>2016-08-12T15:40:58.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="光标效果不见了？"><a href="#光标效果不见了？" class="headerlink" title="光标效果不见了？"></a>光标效果不见了？</h2><p>在页面里，屏幕上光标的样式我们可以用css的’cursor’属性进行定义。一般来讲，只要光标hover到指定的元素上面其样式就会按我们指定的进行显示，但是如果我们指定的元素被其他元素“遮住了”呢？来看看下面这个demo：</p>
 <p></p><p data-height="257" data-theme-id="17410" data-slug-hash="ZWGvgP" data-default-tab="result" data-user="levonlin" class="codepen">See the Pen <a href="http://codepen.io/levonlin/pen/ZWGvgP/" target="_blank" rel="external">ZWGvgP</a> by levonlin (<a href="http://codepen.io/levonlin" target="_blank" rel="external">@levonlin</a>) on <a href="http://codepen.io" target="_blank" rel="external">CodePen</a>.</p><p></p>
