@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://levonlin.info/"/>
-  <updated>2016-09-13T09:41:46.000Z</updated>
+  <updated>2016-09-13T09:48:14.000Z</updated>
   <id>http://levonlin.info/</id>
   
   <generator uri="http://hexo.io/">Hexo</generator>
@@ -15,7 +15,7 @@
     <link href="http://levonlin.info/2016/09/11/DOM%E5%85%83%E7%B4%A0%E7%9A%84%E5%B1%9E%E6%80%A7%EF%BC%88property%EF%BC%89%E5%92%8C%E7%89%B9%E6%80%A7%EF%BC%88attribute%EF%BC%89/"/>
     <id>http://levonlin.info/2016/09/11/DOM元素的属性（property）和特性（attribute）/</id>
     <published>2016-09-11T09:29:50.000Z</published>
-    <updated>2016-09-13T09:41:46.000Z</updated>
+    <updated>2016-09-13T09:48:14.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="从jQuery的prop-和attr-方法说开去"><a href="#从jQuery的prop-和attr-方法说开去" class="headerlink" title="从jQuery的prop()和attr()方法说开去"></a>从jQuery的<code>prop()</code>和<code>attr()</code>方法说开去</h2><p>jQuery中有两个获取DOM元素属性的方法：<code>prop()</code>和<code>attr()</code>，看似可以互相替换，但若搞不清这两个方法获取的到底是什么“属性”，有时就会出现令人困惑的结果。<br>官方文档中，用了下面的例子来解释这两者的不同：</p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"checkbox"</span> <span class="attr">checked</span>=<span class="string">"checked"</span> /&gt;</span></div></pre></td></tr></table></figure>
@@ -60,16 +60,20 @@
 <p>而同时在DOM元素节点之外，还有其他类型的节点，比如文本节点、注释节点、还有我们要讨论的特性节点（Attr节点）等等；这些节点当然也是DOM树上的一个js对象。要操作特性节点，可以在DOM元素上通过<code>getAttribute()</code>、<code>setAttribute()</code>、<code>removeAttribute()</code>等方法来实现，或者用<code>attributes</code>属性获取特性节点集合再作操作：</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">console</span>.log(formItem.getAttribute(<span class="string">'value'</span>)); <span class="comment">/* value0，不受上面属性设置的影响，仍保持页面加载后html中的值 */</span></div><div class="line"></div><div class="line">formItem.setAttribute(<span class="string">'value'</span>, <span class="string">'value2'</span>); <span class="comment">/* 文本框仍显示“value1”，但此时HTML中的value特性已被改为"value2" */</span></div><div class="line"><span class="built_in">console</span>.log(formItem.getAttribute(<span class="string">'value'</span>)); <span class="comment">/* value2 */</span></div><div class="line"><span class="built_in">console</span>.log(formItem.value); <span class="comment">/* value1，不随特性节点的改变而改变 */</span></div></pre></td></tr></table></figure>
 <p>上面的例子中，尤其要区分两点：</p>
-<pre><code>* 属性和特性两者不是一一对应的：Attr节点对应的就是HTML各标签中的特性，这些特性有的未必会被内置为DOM元素的属性，比如HTML5的`data-*`特性等自定义特性；而DOM元素的属性也未必都是HTML中的特性，比如一些DOM元素的操作方法
-* 即使特性节点名和DOM元素的属性名一致，这两者的操作和行为也是不同的：
-    * DOM元素的属性是DOM对象原生实现的，符合一般对象属性的行为；这些属性操作和同名的HTML特性节点无关，但可以在显示上覆盖HTML特性节点的设置
-    * 对于特性节点的操作都是针对HTML文档上的特性；对特性的操作不会改变同名属性值，只是改变HTML的文档内容而已
-</code></pre><p>所以我们可以得到属性和特性的根本区别了：</p>
+<ul>
+<li>属性和特性两者不是一一对应的：Attr节点对应的就是HTML各标签中的特性，这些特性有的未必会被内置为DOM元素的属性，比如HTML5的<code>data-*</code>特性等自定义特性；而DOM元素的属性也未必都是HTML中的特性，比如一些DOM元素的操作方法</li>
+<li>即使特性节点名和DOM元素的属性名一致，这两者的操作和行为也是不同的：<ul>
+<li>DOM元素的属性是DOM对象原生实现的，符合一般对象属性的行为；这些属性操作和同名的HTML特性节点无关，但可以在显示上覆盖HTML特性节点的设置</li>
+<li>对于特性节点的操作都是针对HTML文档上的特性；对特性的操作不会改变同名属性值，只是改变HTML的文档内容而已</li>
+</ul>
+</li>
+</ul>
+<p>所以我们可以得到属性和特性的根本区别了：</p>
 <p><strong>DOM元素的属性（property）是该对象所拥有的属性，而特性（attribute）则是该元素在HTML中的所拥有的特性节点。property是对象属性，本身不操作特性节点，但可以覆盖HTML中的同名特性的效果，是js操作；attribute是DOM节点对象，只用于获取和设置HTML特性，是文本操作。</strong></p>
 <h2 id="用处"><a href="#用处" class="headerlink" title="用处"></a>用处</h2><p>通过上面的讨论，既然属性和特性有根本性区别，那也就意味着他们的应用场合不太一样、也不能混淆：</p>
 <ul>
 <li>property的操作是纯js操作，用于获取和设置原生的一些特性；并且对于事件属性如<code>onclick</code>可以获得处理函数、对于<code>style</code>属性可以获得一个对象。</li>
-<li>attribute是文本操作，用于获取和设置HTML文档中的特性内容，注意这些内容都是字符串形式；同时它能操作的特性也不只是原生限定的那几种，对于一些拓展特性如<code>data-*</code>也可以操作。</li>
+<li>attribute的操作是文本操作，用于获取和设置HTML文档中的特性内容，注意这些内容都是字符串形式；同时它能操作的特性也不只是原生限定的那几种，对于一些拓展特性如<code>data-*</code>也可以操作。</li>
 </ul>
 <p>回到一开始举的jQuery的例子，<code>elem.checked</code>由于是属性操作，所以可以返回一个布尔值。而<code>elem.getAttribute( &quot;checked&quot; )</code>由于是针对HTML特性的文本操作，所以返回的就是一个字符串，当然这个字符串的值也未必是”checked”，而是由HTML中指定的值决定的。</p>
 <p>至于为什么<code>attr</code>方法会在jQuery 1.6之前的版本、1.6本身和1.6之后出现各种不一致的行为呢？首先<code>prop</code>方法是在1.6版本之后引入的，之前只有<code>attr</code>时，该方法对返回属性是还是特性没有作严格区分；而在1.6版本开始会明确让<code>attr</code>返回特性、<code>prop</code>负责处理属性，同时1.6后为考虑向后兼容，<code>attr</code>返回特性会随属性的改变而改变，但返回的已经只能是“特性形式”的字符串了。</p>
@@ -512,9 +516,9 @@
     
       <category term="前端" scheme="http://levonlin.info/tags/%E5%89%8D%E7%AB%AF/"/>
     
-      <category term="css" scheme="http://levonlin.info/tags/css/"/>
-    
       <category term="html" scheme="http://levonlin.info/tags/html/"/>
+    
+      <category term="css" scheme="http://levonlin.info/tags/css/"/>
     
   </entry>
   
@@ -770,9 +774,9 @@
     
       <category term="前端" scheme="http://levonlin.info/tags/%E5%89%8D%E7%AB%AF/"/>
     
-      <category term="css" scheme="http://levonlin.info/tags/css/"/>
-    
       <category term="html" scheme="http://levonlin.info/tags/html/"/>
+    
+      <category term="css" scheme="http://levonlin.info/tags/css/"/>
     
   </entry>
   
@@ -853,11 +857,11 @@
     
       <category term="前端" scheme="http://levonlin.info/tags/%E5%89%8D%E7%AB%AF/"/>
     
-      <category term="css" scheme="http://levonlin.info/tags/css/"/>
-    
       <category term="javascript" scheme="http://levonlin.info/tags/javascript/"/>
     
       <category term="html" scheme="http://levonlin.info/tags/html/"/>
+    
+      <category term="css" scheme="http://levonlin.info/tags/css/"/>
     
       <category term="求职" scheme="http://levonlin.info/tags/%E6%B1%82%E8%81%8C/"/>
     
@@ -965,9 +969,9 @@
     
       <category term="前端" scheme="http://levonlin.info/tags/%E5%89%8D%E7%AB%AF/"/>
     
-      <category term="css" scheme="http://levonlin.info/tags/css/"/>
-    
       <category term="html" scheme="http://levonlin.info/tags/html/"/>
+    
+      <category term="css" scheme="http://levonlin.info/tags/css/"/>
     
   </entry>
   
@@ -2366,11 +2370,11 @@
     
       <category term="前端" scheme="http://levonlin.info/tags/%E5%89%8D%E7%AB%AF/"/>
     
-      <category term="css" scheme="http://levonlin.info/tags/css/"/>
-    
       <category term="javascript" scheme="http://levonlin.info/tags/javascript/"/>
     
       <category term="html" scheme="http://levonlin.info/tags/html/"/>
+    
+      <category term="css" scheme="http://levonlin.info/tags/css/"/>
     
       <category term="求职" scheme="http://levonlin.info/tags/%E6%B1%82%E8%81%8C/"/>
     
