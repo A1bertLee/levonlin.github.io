@@ -643,9 +643,9 @@
     
       <category term="前端" scheme="http://levonlin.info/tags/%E5%89%8D%E7%AB%AF/"/>
     
-      <category term="html" scheme="http://levonlin.info/tags/html/"/>
-    
       <category term="css" scheme="http://levonlin.info/tags/css/"/>
+    
+      <category term="html" scheme="http://levonlin.info/tags/html/"/>
     
   </entry>
   
@@ -727,7 +727,7 @@
 <p>于是它们使用了私有属性：<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-appearance" target="_blank" rel="external">-webkit-appearance</a> 或 <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/-moz-appearance" target="_blank" rel="external">-moz-appearance</a>。<strong>这些属性是非标准的，也不应被使用</strong>。实际上，它们在Webkit和Gecko上的表现也不尽相同。但是，有一个值是应该知道的：<code>none</code>，使用该值你就可以获得对组件样式的（几乎所有）控制权。</p>
 <p>所以，若你在一个元素上应用样式时遇到问题，可以试着使用这些私有属性（译注：用<code>none</code>值覆盖默认值）。下面我们会看到几个例子，但最为人熟知的用例是重置Webkit浏览器上搜索框的样式。</p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">form</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"search"</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">form</span>&gt;</span></div></pre></td></tr></table></figure>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="css"></span></div><div class="line"><span class="selector-tag">input</span><span class="selector-attr">[type=search]</span> &#123;</div><div class="line">    <span class="attribute">border</span>: <span class="number">1px</span> dotted <span class="number">#999</span>;</div><div class="line">    <span class="attribute">border-radius</span>: <span class="number">0</span>;</div><div class="line">    </div><div class="line">    <span class="attribute">-webkit-appearance</span>: none;</div><div class="line">&#125;</div><div class="line"><span class="tag">&lt;/<span class="name">style</span>&gt;</span></div></pre></td></tr></table></figure>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="undefined"></span></div><div class="line">input[type=search] &#123;</div><div class="line">    border: 1px dotted #999;</div><div class="line">    border-radius: 0;</div><div class="line">    </div><div class="line">    -webkit-appearance: none;</div><div class="line">&#125;</div><div class="line"><span class="tag">&lt;/<span class="name">style</span>&gt;</span></div></pre></td></tr></table></figure>
 <blockquote>
 <p><strong>注意：</strong>在我们讨论Web技术时，是难于预测未来的，但拓展CSS的表现力确实很难。另一些做了探索工作的标准如<a href="http://dvcs.w3.org/hg/webcomponents/raw-file/tip/spec/shadow/index.html" target="_blank" rel="external">Shadow DOM</a>提供了新的视角。我们对完全可配置样式的表单的追求还远未结束。</p>
 </blockquote>
@@ -901,9 +901,9 @@
     
       <category term="前端" scheme="http://levonlin.info/tags/%E5%89%8D%E7%AB%AF/"/>
     
-      <category term="html" scheme="http://levonlin.info/tags/html/"/>
-    
       <category term="css" scheme="http://levonlin.info/tags/css/"/>
+    
+      <category term="html" scheme="http://levonlin.info/tags/html/"/>
     
   </entry>
   
@@ -912,7 +912,7 @@
     <link href="http://levonlin.info/2016/06/15/%E7%BE%8E%E5%A4%A7%E9%9D%A2%E8%AF%95/"/>
     <id>http://levonlin.info/2016/06/15/美大面试/</id>
     <published>2016-06-15T12:00:00.000Z</published>
-    <updated>2016-09-11T06:56:23.000Z</updated>
+    <updated>2016-09-27T06:37:34.000Z</updated>
     
     <content type="html"><![CDATA[<p>相比百度，美大的面试官似乎很关注标准方面的问题、同时也问了一些体现综合能力的题目。总结如下：</p>
 <h2 id="hover控制显隐的级联菜单"><a href="#hover控制显隐的级联菜单" class="headerlink" title="hover控制显隐的级联菜单"></a>hover控制显隐的级联菜单</h2><p>这个常见于导航条和电商网站的侧边栏，也可以用于实现自定义的右键菜单，最简单的一个思路就是用<code>hover</code>伪类+子菜单绝对定位来做，但感觉回答得挺勉强的，模拟大众点评的侧边栏形式再实现一遍吧：</p>
@@ -926,6 +926,17 @@
 
 <h2 id="实现轮播图"><a href="#实现轮播图" class="headerlink" title="实现轮播图"></a>实现轮播图</h2><p>就是经典的带自动播放、进度显示、左右方向控制的轮播图啦，而且要求封装接口实现批量导入图片生成轮播图。</p>
 <p>其实自己也实现过几次了，但是回答时还是思路很不清晰，说明还是没有学到位，构建的能力不足啊。重新研究了一下：</p>
+<p>轮播图的主要有三个组件（图片、箭头、原点），而这三个组件又对应三个切换（自动切换、左右切换、任意切换）的操作。这里此采用了构造函数+原型对象来封装整个功能，构造函数主要做三件事：</p>
+<ul>
+<li>获取配置的属性（三个切换的开关）</li>
+<li>输出整个组件初始结构、获取UI属性</li>
+<li>初始化三个切换动作</li>
+</ul>
+<p>构造函数中各种实例属性配置完后，接下来就只要在对象的原型里，把输出组件、切换动作这两类方法实现就好了。难点就是切换的实现，为简单起见，这里用了个<code>_moveTo</code>方法一步到位，没有过渡；同时原点状态的切换也是重新渲染后直接替换，减少了频繁琐碎的类名切换操作。</p>
+<p>最后，只要new一下构造函数，把资源、配置传进去，一个轮播图就可以轻松生成：</p>
+<p></p><p data-height="320" data-theme-id="17410" data-slug-hash="dpWjdV" data-default-tab="js,result" data-user="levonlin" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/levonlin/pen/dpWjdV/" target="_blank" rel="external">carousel</a> by levonlin (<a href="http://codepen.io/levonlin" target="_blank" rel="external">@levonlin</a>) on <a href="http://codepen.io" target="_blank" rel="external">CodePen</a>.</p><p></p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+
 <h2 id="排序算法"><a href="#排序算法" class="headerlink" title="排序算法"></a>排序算法</h2><p>记得最清楚的是冒泡，其他的就不太熟悉了，将常用的几种贴下：</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div></pre></td><td class="code"><pre><div class="line"><span class="comment">/* 冒泡 */</span></div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">bubbleSort</span>(<span class="params">arr</span>) </span>&#123;</div><div class="line">    <span class="keyword">var</span> last = <span class="number">0</span>;</div><div class="line">    <span class="keyword">for</span> (<span class="keyword">var</span> i = arr.length - <span class="number">1</span>; i &gt; <span class="number">0</span>; i = last) &#123;</div><div class="line">        last = <span class="number">0</span>;</div><div class="line">        <span class="keyword">for</span> (<span class="keyword">var</span> j = <span class="number">0</span>; j &lt; i; j++) &#123;</div><div class="line">            <span class="keyword">if</span> (arr[j] &gt; arr[j + <span class="number">1</span>]) &#123;</div><div class="line">                <span class="keyword">var</span> temp = arr[j];</div><div class="line">                arr[j] = arr[j + <span class="number">1</span>];</div><div class="line">                arr[j+<span class="number">1</span>] = temp;</div><div class="line">                last = j;</div><div class="line">            &#125;</div><div class="line">        &#125;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="keyword">return</span> arr;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="comment">/* 选择 */</span></div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">selectSort</span>(<span class="params">arr</span>) </span>&#123;</div><div class="line">    <span class="keyword">for</span> (<span class="keyword">var</span> i = arr.length - <span class="number">1</span>; i &gt; <span class="number">0</span>; i--) &#123;</div><div class="line">        <span class="keyword">var</span> maxIndex = i;</div><div class="line">        <span class="keyword">for</span> (<span class="keyword">var</span> j = <span class="number">0</span>; j &lt; i; j++) &#123;</div><div class="line">            <span class="keyword">if</span> (arr[maxIndex] &lt; arr[j]) &#123;</div><div class="line">                maxIndex = j;</div><div class="line">            &#125;</div><div class="line">        &#125;</div><div class="line">        <span class="keyword">if</span> (maxIndex !== i) &#123;</div><div class="line">            <span class="keyword">var</span> temp = arr[i];</div><div class="line">            arr[i] = arr[maxIndex];</div><div class="line">            arr[maxIndex] = temp;</div><div class="line">        &#125;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="keyword">return</span> arr;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="comment">/* 插入 */</span></div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">insertSort</span>(<span class="params">arr</span>) </span>&#123;</div><div class="line">    <span class="keyword">for</span> (<span class="keyword">var</span> i = arr.length - <span class="number">1</span>; i &gt; <span class="number">0</span>; i--) &#123;</div><div class="line">        <span class="keyword">var</span> temp = arr[i - <span class="number">1</span>];</div><div class="line">        <span class="keyword">for</span> (<span class="keyword">var</span> j = i; j &lt; arr.length; j++) &#123;</div><div class="line">            <span class="keyword">if</span> (arr[j] &lt; temp) &#123;</div><div class="line">                arr[j - <span class="number">1</span>] = arr[j];</div><div class="line">            &#125; <span class="keyword">else</span> &#123;</div><div class="line">                <span class="keyword">break</span>;</div><div class="line">            &#125;</div><div class="line">        &#125;</div><div class="line"></div><div class="line">        arr[j - <span class="number">1</span>] = temp;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="keyword">return</span> arr;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <h2 id="几个标准"><a href="#几个标准" class="headerlink" title="几个标准"></a>几个标准</h2><p>标准这东西，除非遇到实在不能解决的问题，自己平常是很少去深究的。而这次面试问了好多这方面的问题，让我感觉这方面的认知真的很匮乏。其实想想未来的职业发展，研究并掌握标准是一种保障，也是自己升值潜力的所在，毕竟前端界千变万化还是基于标准的，这就是所谓内功吧：</p>
@@ -984,11 +995,11 @@
     
       <category term="前端" scheme="http://levonlin.info/tags/%E5%89%8D%E7%AB%AF/"/>
     
+      <category term="css" scheme="http://levonlin.info/tags/css/"/>
+    
       <category term="javascript" scheme="http://levonlin.info/tags/javascript/"/>
     
       <category term="html" scheme="http://levonlin.info/tags/html/"/>
-    
-      <category term="css" scheme="http://levonlin.info/tags/css/"/>
     
       <category term="求职" scheme="http://levonlin.info/tags/%E6%B1%82%E8%81%8C/"/>
     
@@ -1096,9 +1107,9 @@
     
       <category term="前端" scheme="http://levonlin.info/tags/%E5%89%8D%E7%AB%AF/"/>
     
-      <category term="html" scheme="http://levonlin.info/tags/html/"/>
-    
       <category term="css" scheme="http://levonlin.info/tags/css/"/>
+    
+      <category term="html" scheme="http://levonlin.info/tags/html/"/>
     
   </entry>
   
@@ -2497,11 +2508,11 @@
     
       <category term="前端" scheme="http://levonlin.info/tags/%E5%89%8D%E7%AB%AF/"/>
     
+      <category term="css" scheme="http://levonlin.info/tags/css/"/>
+    
       <category term="javascript" scheme="http://levonlin.info/tags/javascript/"/>
     
       <category term="html" scheme="http://levonlin.info/tags/html/"/>
-    
-      <category term="css" scheme="http://levonlin.info/tags/css/"/>
     
       <category term="求职" scheme="http://levonlin.info/tags/%E6%B1%82%E8%81%8C/"/>
     
