@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://levonlin.info/"/>
-  <updated>2016-09-25T13:21:56.000Z</updated>
+  <updated>2016-09-27T06:52:09.000Z</updated>
   <id>http://levonlin.info/</id>
   
   <generator uri="http://hexo.io/">Hexo</generator>
@@ -15,7 +15,7 @@
     <link href="http://levonlin.info/2016/09/24/%E3%80%90%E8%AF%91%E3%80%91%E5%8F%91%E9%80%81%E8%A1%A8%E5%8D%95%E6%95%B0%E6%8D%AE/"/>
     <id>http://levonlin.info/2016/09/24/【译】发送表单数据/</id>
     <published>2016-09-24T11:37:28.000Z</published>
-    <updated>2016-09-25T13:21:56.000Z</updated>
+    <updated>2016-09-27T06:52:09.000Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <ul>
@@ -142,7 +142,7 @@
     <link href="http://levonlin.info/2016/09/11/DOM%E5%85%83%E7%B4%A0%E7%9A%84%E5%B1%9E%E6%80%A7%EF%BC%88property%EF%BC%89%E5%92%8C%E7%89%B9%E6%80%A7%EF%BC%88attribute%EF%BC%89/"/>
     <id>http://levonlin.info/2016/09/11/DOM元素的属性（property）和特性（attribute）/</id>
     <published>2016-09-11T09:29:50.000Z</published>
-    <updated>2016-09-13T09:48:14.000Z</updated>
+    <updated>2016-09-27T06:52:09.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="从jQuery的prop-和attr-方法说开去"><a href="#从jQuery的prop-和attr-方法说开去" class="headerlink" title="从jQuery的prop()和attr()方法说开去"></a>从jQuery的<code>prop()</code>和<code>attr()</code>方法说开去</h2><p>jQuery中有两个获取DOM元素属性的方法：<code>prop()</code>和<code>attr()</code>，看似可以互相替换，但若搞不清这两个方法获取的到底是什么“属性”，有时就会出现令人困惑的结果。<br>官方文档中，用了下面的例子来解释这两者的不同：</p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"checkbox"</span> <span class="attr">checked</span>=<span class="string">"checked"</span> /&gt;</span></div></pre></td></tr></table></figure>
@@ -230,7 +230,7 @@
     <link href="http://levonlin.info/2016/08/06/%E3%80%90%E8%AF%91%E3%80%91%E8%A1%A8%E5%8D%95%E7%BB%84%E4%BB%B6%E7%9A%84%E5%B1%9E%E6%80%A7%E5%85%BC%E5%AE%B9%E6%80%A7%E8%A1%A8/"/>
     <id>http://levonlin.info/2016/08/06/【译】表单组件的属性兼容性表/</id>
     <published>2016-08-06T12:31:37.000Z</published>
-    <updated>2016-08-12T15:40:58.000Z</updated>
+    <updated>2016-09-27T06:52:09.000Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <ul>
@@ -643,9 +643,9 @@
     
       <category term="前端" scheme="http://levonlin.info/tags/%E5%89%8D%E7%AB%AF/"/>
     
-      <category term="css" scheme="http://levonlin.info/tags/css/"/>
-    
       <category term="html" scheme="http://levonlin.info/tags/html/"/>
+    
+      <category term="css" scheme="http://levonlin.info/tags/css/"/>
     
   </entry>
   
@@ -654,7 +654,7 @@
     <link href="http://levonlin.info/2016/06/29/%E3%80%90%E8%AF%91%E3%80%91HTML%E8%A1%A8%E5%8D%95%E9%AB%98%E7%BA%A7%E6%A0%B7%E5%BC%8F/"/>
     <id>http://levonlin.info/2016/06/29/【译】HTML表单高级样式/</id>
     <published>2016-06-29T07:44:25.000Z</published>
-    <updated>2016-08-12T15:40:58.000Z</updated>
+    <updated>2016-09-27T06:52:09.000Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <ul>
@@ -727,7 +727,7 @@
 <p>于是它们使用了私有属性：<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-appearance" target="_blank" rel="external">-webkit-appearance</a> 或 <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/-moz-appearance" target="_blank" rel="external">-moz-appearance</a>。<strong>这些属性是非标准的，也不应被使用</strong>。实际上，它们在Webkit和Gecko上的表现也不尽相同。但是，有一个值是应该知道的：<code>none</code>，使用该值你就可以获得对组件样式的（几乎所有）控制权。</p>
 <p>所以，若你在一个元素上应用样式时遇到问题，可以试着使用这些私有属性（译注：用<code>none</code>值覆盖默认值）。下面我们会看到几个例子，但最为人熟知的用例是重置Webkit浏览器上搜索框的样式。</p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">form</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"search"</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">form</span>&gt;</span></div></pre></td></tr></table></figure>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="undefined"></span></div><div class="line">input[type=search] &#123;</div><div class="line">    border: 1px dotted #999;</div><div class="line">    border-radius: 0;</div><div class="line">    </div><div class="line">    -webkit-appearance: none;</div><div class="line">&#125;</div><div class="line"><span class="tag">&lt;/<span class="name">style</span>&gt;</span></div></pre></td></tr></table></figure>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="css"></span></div><div class="line"><span class="selector-tag">input</span><span class="selector-attr">[type=search]</span> &#123;</div><div class="line">    <span class="attribute">border</span>: <span class="number">1px</span> dotted <span class="number">#999</span>;</div><div class="line">    <span class="attribute">border-radius</span>: <span class="number">0</span>;</div><div class="line">    </div><div class="line">    <span class="attribute">-webkit-appearance</span>: none;</div><div class="line">&#125;</div><div class="line"><span class="tag">&lt;/<span class="name">style</span>&gt;</span></div></pre></td></tr></table></figure>
 <blockquote>
 <p><strong>注意：</strong>在我们讨论Web技术时，是难于预测未来的，但拓展CSS的表现力确实很难。另一些做了探索工作的标准如<a href="http://dvcs.w3.org/hg/webcomponents/raw-file/tip/spec/shadow/index.html" target="_blank" rel="external">Shadow DOM</a>提供了新的视角。我们对完全可配置样式的表单的追求还远未结束。</p>
 </blockquote>
@@ -901,9 +901,9 @@
     
       <category term="前端" scheme="http://levonlin.info/tags/%E5%89%8D%E7%AB%AF/"/>
     
-      <category term="css" scheme="http://levonlin.info/tags/css/"/>
-    
       <category term="html" scheme="http://levonlin.info/tags/html/"/>
+    
+      <category term="css" scheme="http://levonlin.info/tags/css/"/>
     
   </entry>
   
@@ -912,7 +912,7 @@
     <link href="http://levonlin.info/2016/06/15/%E7%BE%8E%E5%A4%A7%E9%9D%A2%E8%AF%95/"/>
     <id>http://levonlin.info/2016/06/15/美大面试/</id>
     <published>2016-06-15T12:00:00.000Z</published>
-    <updated>2016-09-27T06:37:34.000Z</updated>
+    <updated>2016-09-27T06:52:09.000Z</updated>
     
     <content type="html"><![CDATA[<p>相比百度，美大的面试官似乎很关注标准方面的问题、同时也问了一些体现综合能力的题目。总结如下：</p>
 <h2 id="hover控制显隐的级联菜单"><a href="#hover控制显隐的级联菜单" class="headerlink" title="hover控制显隐的级联菜单"></a>hover控制显隐的级联菜单</h2><p>这个常见于导航条和电商网站的侧边栏，也可以用于实现自定义的右键菜单，最简单的一个思路就是用<code>hover</code>伪类+子菜单绝对定位来做，但感觉回答得挺勉强的，模拟大众点评的侧边栏形式再实现一遍吧：</p>
@@ -995,11 +995,11 @@
     
       <category term="前端" scheme="http://levonlin.info/tags/%E5%89%8D%E7%AB%AF/"/>
     
-      <category term="css" scheme="http://levonlin.info/tags/css/"/>
-    
       <category term="javascript" scheme="http://levonlin.info/tags/javascript/"/>
     
       <category term="html" scheme="http://levonlin.info/tags/html/"/>
+    
+      <category term="css" scheme="http://levonlin.info/tags/css/"/>
     
       <category term="求职" scheme="http://levonlin.info/tags/%E6%B1%82%E8%81%8C/"/>
     
@@ -1010,7 +1010,7 @@
     <link href="http://levonlin.info/2016/06/05/%E3%80%90%E8%AF%91%E3%80%91HTML%E8%A1%A8%E5%8D%95%E6%A0%B7%E5%BC%8F/"/>
     <id>http://levonlin.info/2016/06/05/【译】HTML表单样式/</id>
     <published>2016-06-05T06:13:20.000Z</published>
-    <updated>2016-08-12T15:40:58.000Z</updated>
+    <updated>2016-09-27T06:52:09.000Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <ul>
@@ -1107,9 +1107,9 @@
     
       <category term="前端" scheme="http://levonlin.info/tags/%E5%89%8D%E7%AB%AF/"/>
     
-      <category term="css" scheme="http://levonlin.info/tags/css/"/>
-    
       <category term="html" scheme="http://levonlin.info/tags/html/"/>
+    
+      <category term="css" scheme="http://levonlin.info/tags/css/"/>
     
   </entry>
   
@@ -1118,7 +1118,7 @@
     <link href="http://levonlin.info/2016/05/24/%E3%80%90%E8%AF%91%E3%80%91%E5%8E%9F%E7%94%9F%E8%A1%A8%E5%8D%95%E7%BB%84%E4%BB%B6/"/>
     <id>http://levonlin.info/2016/05/24/【译】原生表单组件/</id>
     <published>2016-05-24T09:52:28.000Z</published>
-    <updated>2016-08-12T15:40:58.000Z</updated>
+    <updated>2016-09-27T06:52:09.000Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <ul>
@@ -2401,7 +2401,7 @@
     <link href="http://levonlin.info/2016/05/18/%E7%99%BE%E5%BA%A6%E9%9D%A2%E8%AF%95%E7%9A%84%E6%80%BB%E7%BB%93/"/>
     <id>http://levonlin.info/2016/05/18/百度面试的总结/</id>
     <published>2016-05-18T12:10:40.000Z</published>
-    <updated>2016-08-12T15:40:58.000Z</updated>
+    <updated>2016-09-27T06:52:09.000Z</updated>
     
     <content type="html"><![CDATA[<p>今天接到百度的电话面试了，人生中第一次电话面试啊，感觉有很多做不好的地方，必须来好好总结整理下。</p>
 <h2 id="关于面试准备"><a href="#关于面试准备" class="headerlink" title="关于面试准备"></a>关于面试准备</h2><p>之前由于一直没有消息，还以为自己笔试没通过来着，直到昨天晚上偶然翻了下才知道自己被安排面试了。而且一直都没有好好刷过面试题，本来还想趁这几天好好查漏补缺下的，结果今天就来了电话。</p>
@@ -2508,11 +2508,11 @@
     
       <category term="前端" scheme="http://levonlin.info/tags/%E5%89%8D%E7%AB%AF/"/>
     
-      <category term="css" scheme="http://levonlin.info/tags/css/"/>
-    
       <category term="javascript" scheme="http://levonlin.info/tags/javascript/"/>
     
       <category term="html" scheme="http://levonlin.info/tags/html/"/>
+    
+      <category term="css" scheme="http://levonlin.info/tags/css/"/>
     
       <category term="求职" scheme="http://levonlin.info/tags/%E6%B1%82%E8%81%8C/"/>
     
@@ -2523,7 +2523,7 @@
     <link href="http://levonlin.info/2016/05/14/%E5%8E%9F%E7%94%9Fjs%E7%BB%83%E4%B9%A0%E9%A2%98-%E6%9D%82%E9%A1%B9-md/"/>
     <id>http://levonlin.info/2016/05/14/原生js练习题-杂项-md/</id>
     <published>2016-05-14T07:17:44.000Z</published>
-    <updated>2016-08-12T15:40:58.000Z</updated>
+    <updated>2016-09-27T06:52:09.000Z</updated>
     
     <content type="html"><![CDATA[<p>最后一篇了，来做几个查漏补缺的小练习吧：</p>
 <h2 id="0x1-js条件注释-仅IE执行"><a href="#0x1-js条件注释-仅IE执行" class="headerlink" title="0x1 js条件注释 仅IE执行"></a>0x1 js条件注释 仅IE执行</h2><p>实现效果：</p>
@@ -2603,7 +2603,7 @@
     <link href="http://levonlin.info/2016/05/13/%E5%85%83%E7%B4%A0auto%E5%AE%BD%E9%AB%98%E7%9A%84%E5%BD%B1%E5%93%8D%E5%9B%A0%E7%B4%A0/"/>
     <id>http://levonlin.info/2016/05/13/元素auto宽高的影响因素/</id>
     <published>2016-05-13T11:13:38.000Z</published>
-    <updated>2016-08-12T15:40:58.000Z</updated>
+    <updated>2016-11-14T10:30:40.000Z</updated>
     
     <content type="html"><![CDATA[<p>我们知道，元素在没有设置宽高的情况下，默认的宽高值都为<code>auto</code>。而这个<code>auto</code>到底是如何让元素自动拥有宽高的呢，也就是说，元素的宽度和高度到底会受到什么因素的影响？本文将通过一个例子来对这一问题一探究竟，HTML结构和初始css如下：</p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"container"</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"test"</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></div></pre></td></tr></table></figure>
@@ -2656,6 +2656,7 @@
 <h2 id="2016-08-06更新：关于表单元素"><a href="#2016-08-06更新：关于表单元素" class="headerlink" title="2016-08-06更新：关于表单元素"></a>2016-08-06更新：关于表单元素</h2><p>自己原来的想法还是too young了，没有考虑到表单元素这种存在.由于浏览器对一些表单元素的原生实现是基于操作系统的，这就导致表单元素的auto宽高并不符合上面提到的那些规律。</p>
 <p>比如一个按钮，不管是在何种定位之下、也不管容器如何，只要不手动指定宽高它就还是那个样子。而且由于和操作系统有关，所以浏览器并没有给我们提供能够取消这种默认行为的属性，也就是说我们不能采用诸如<code>-webkit-appearance: none;</code>这样的做法来覆盖默认样式。故而上面对auto宽高的讨论对这些表单元素都是不适用的，面对表单元素时我们没必要再auto宽高的问题，有什么需求就老实去去手动指定好了。</p>
 <p>想了解更多关于表单元素原生的内容，可参考我翻译的<a href="http://levonlin.info/2016/05/24/%E3%80%90%E8%AF%91%E3%80%91%E5%8E%9F%E7%94%9F%E8%A1%A8%E5%8D%95%E7%BB%84%E4%BB%B6/">原生表单组件</a>。</p>
+<h2 id="2016-11-14更新：关于img元素"><a href="#2016-11-14更新：关于img元素" class="headerlink" title="2016-11-14更新：关于img元素"></a>2016-11-14更新：关于img元素</h2><p>之前讨论的多是块级元素，但还有一个特殊的元素img；作为一个inline-block元素，其auto宽高的规则和表单元素一样受到浏览器默认规则的影响。这个默认规则的特殊地方在于auto宽高会等比例缩放，具体来说，就是为了防止失真，图片的宽高只要有一个没指定就会自动等比例缩放来决定最终大小，而不是像别的元素一样宽高各管各的。同时，绝对定位或浮动的图片容器的auto宽高是按图片宽高最大值自适应的，这也符合前面提到的规则。</p>
 ]]></content>
     
     <summary type="html">
@@ -2678,7 +2679,7 @@
     <link href="http://levonlin.info/2016/05/03/%E3%80%90%E8%AF%91%E3%80%91%E6%80%8E%E4%B9%88%E6%A0%B7%E6%9E%84%E5%BB%BAHTML%E8%A1%A8%E5%8D%95/"/>
     <id>http://levonlin.info/2016/05/03/【译】怎么样构建HTML表单/</id>
     <published>2016-05-03T08:04:54.000Z</published>
-    <updated>2016-08-12T15:40:58.000Z</updated>
+    <updated>2016-09-27T06:52:09.000Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <ul>
@@ -3300,7 +3301,7 @@
     <link href="http://levonlin.info/2016/04/28/%E3%80%90%E8%AF%91%E3%80%91HTML%E8%A1%A8%E5%8D%95%E6%8C%87%E5%8D%97-%E7%AC%AC%E4%B8%80%E4%B8%AAHTML%E8%A1%A8%E5%8D%95/"/>
     <id>http://levonlin.info/2016/04/28/【译】HTML表单指南-第一个HTML表单/</id>
     <published>2016-04-28T11:30:09.000Z</published>
-    <updated>2016-08-12T15:40:58.000Z</updated>
+    <updated>2016-09-27T06:52:09.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>这个系列译自<a href="https://developer.mozilla.org/zh-CN/docs/Web/Guide/HTML/Forms" target="_blank" rel="external">mdn上的一份表单指南</a>，原文详尽阐述了表单相关的基础知识。而表单作为一个经典的页面交互方式，是每个前端工程师绕不开的话题，通过翻译这个系列的文章既是有助于扫清自己的知识盲区，也希望借此能让更多人受惠吧~</p>
 <p>先列下目录：</p>
@@ -3426,7 +3427,7 @@
     <link href="http://levonlin.info/2016/04/27/textContent%E5%92%8CinnerText%E5%B1%9E%E6%80%A7/"/>
     <id>http://levonlin.info/2016/04/27/textContent和innerText属性/</id>
     <published>2016-04-27T11:22:10.000Z</published>
-    <updated>2016-08-12T15:40:58.000Z</updated>
+    <updated>2016-09-27T06:52:09.000Z</updated>
     
     <content type="html"><![CDATA[<p>在DOM操作中，我们如果要获取和修改节点的的文本，就离不开<code>textContent</code>或<code>innerText</code>属性。其中<code>textContent</code>作为标准方法，但无奈要IE8+；而<code>innerText</code>属性最近也被火狐支持了，已经成了不是标准的标准（<a href="http://caniuse.com/#search=innerText" target="_blank" rel="external">参考</a>）。也就是说，如果只考虑最新浏览器的话这两个方法都是可以使用的，那他们到底使用时有何不同呢？先上代码：</p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">"test"</span> <span class="attr">class</span>=<span class="string">"test"</span>&gt;</span>test<span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">"display:none"</span>&gt;</span><span class="tag">&lt;<span class="name">span</span>&gt;</span>test<span class="tag">&lt;/<span class="name">span</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span><span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="undefined">hi</span><span class="tag">&lt;/<span class="name">style</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span> </div><div class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span>&gt;</span><span class="javascript"></span></div><div class="line">    <span class="keyword">var</span> testDiv = <span class="built_in">document</span>.getElementById(<span class="string">'test'</span>);</div><div class="line">    <span class="built_in">console</span>.log(testDiv.textContent);</div><div class="line">    <span class="built_in">console</span>.log(testDiv.innerText);</div><div class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div></pre></td></tr></table></figure>
@@ -3460,7 +3461,7 @@
     <link href="http://levonlin.info/2016/04/27/%E5%8E%9F%E7%94%9Fjs%E7%BB%83%E4%B9%A0%E9%A2%98-%E7%AC%AC%E5%85%AD%E8%AF%BE/"/>
     <id>http://levonlin.info/2016/04/27/原生js练习题-第六课/</id>
     <published>2016-04-27T04:55:15.000Z</published>
-    <updated>2016-08-12T15:40:58.000Z</updated>
+    <updated>2016-09-27T06:52:09.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="0x1完美拖拽"><a href="#0x1完美拖拽" class="headerlink" title="0x1完美拖拽"></a>0x1完美拖拽</h2><p>实现效果：</p>
 <p></p><p data-height="300" data-theme-id="17410" data-slug-hash="GZYNGW" data-default-tab="result" data-user="levonlin" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/levonlin/pen/GZYNGW/" target="_blank" rel="external">6-01完美拖动</a> by levonlin (<a href="http://codepen.io/levonlin" target="_blank" rel="external">@levonlin</a>) on <a href="http://codepen.io" target="_blank" rel="external">CodePen</a>.</p><p></p>
@@ -3542,7 +3543,7 @@
     <link href="http://levonlin.info/2016/04/25/css%E7%9A%84%E6%A0%B7%E5%BC%8F%E4%BC%98%E5%85%88%E7%BA%A7/"/>
     <id>http://levonlin.info/2016/04/25/css的样式优先级/</id>
     <published>2016-04-25T09:48:39.000Z</published>
-    <updated>2016-08-12T15:40:58.000Z</updated>
+    <updated>2016-09-27T06:52:09.000Z</updated>
     
     <content type="html"><![CDATA[<p>前几天做百度的笔试题，第一题就是关于css优先级的，虽然知道一些规则，但碰上把各条规则相互组合就懵逼了，所以还是得来好好总结一下的。</p>
 <h2 id="首要原则"><a href="#首要原则" class="headerlink" title="首要原则"></a>首要原则</h2><p>就两条：</p>
@@ -3608,7 +3609,7 @@
     <link href="http://levonlin.info/2016/04/13/%E5%8E%9F%E7%94%9Fjs%E7%BB%83%E4%B9%A0%E9%A2%98-%E7%AC%AC%E4%BA%94%E8%AF%BE/"/>
     <id>http://levonlin.info/2016/04/13/原生js练习题-第五课/</id>
     <published>2016-04-13T09:27:02.000Z</published>
-    <updated>2016-08-12T15:40:58.000Z</updated>
+    <updated>2016-09-27T06:52:09.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="0x1模拟select控件"><a href="#0x1模拟select控件" class="headerlink" title="0x1模拟select控件"></a>0x1模拟select控件</h2><p>实现效果：</p>
 <p></p><p data-height="257" data-theme-id="17410" data-slug-hash="yOKeqm" data-default-tab="result" data-user="levonlin" class="codepen">See the Pen <a href="http://codepen.io/levonlin/pen/yOKeqm/" target="_blank" rel="external">5-01模拟select控件</a> by levonlin (<a href="http://codepen.io/levonlin" target="_blank" rel="external">@levonlin</a>) on <a href="http://codepen.io" target="_blank" rel="external">CodePen</a>.</p><p></p>
@@ -3688,7 +3689,7 @@
     <link href="http://levonlin.info/2016/03/24/%E5%8E%9F%E7%94%9Fjs%E7%BB%83%E4%B9%A0%E9%A2%98-%E7%AC%AC%E5%9B%9B%E8%AF%BE/"/>
     <id>http://levonlin.info/2016/03/24/原生js练习题-第四课/</id>
     <published>2016-03-24T07:50:26.000Z</published>
-    <updated>2016-08-12T15:40:58.000Z</updated>
+    <updated>2016-09-27T06:52:09.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="0x1setTimeout应用"><a href="#0x1setTimeout应用" class="headerlink" title="0x1setTimeout应用"></a>0x1setTimeout应用</h2><p>实现效果：</p>
 <p></p><p data-height="257" data-theme-id="17410" data-slug-hash="yOoPNd" data-default-tab="result" data-user="levonlin" class="codepen">See the Pen <a href="http://codepen.io/levonlin/pen/yOoPNd/" target="_blank" rel="external">4-01setTimeout应用</a> by levonlin (<a href="http://codepen.io/levonlin" target="_blank" rel="external">@levonlin</a>) on <a href="http://codepen.io" target="_blank" rel="external">CodePen</a>.</p><p></p>
@@ -3781,7 +3782,7 @@
     <link href="http://levonlin.info/2016/03/14/%E5%8E%9F%E7%94%9Fjs%E7%BB%83%E4%B9%A0%E9%A2%98-%E7%AC%AC%E4%B8%89%E8%AF%BE/"/>
     <id>http://levonlin.info/2016/03/14/原生js练习题-第三课/</id>
     <published>2016-03-14T09:34:53.000Z</published>
-    <updated>2016-08-12T15:40:58.000Z</updated>
+    <updated>2016-09-27T06:52:09.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="0x1用typeof查看数据类型"><a href="#0x1用typeof查看数据类型" class="headerlink" title="0x1用typeof查看数据类型"></a>0x1用typeof查看数据类型</h2><p>略过，不过<code>typeof</code>用来判断数据类型是不太靠谱的，尤其是涉及到引用类型的时候，除非是要检测一个变量是否有定义，否则最好采用<code>Object.prototype.toString</code>方法。</p>
 <h2 id="0x2用parseInt解析数字，并求和"><a href="#0x2用parseInt解析数字，并求和" class="headerlink" title="0x2用parseInt解析数字，并求和"></a>0x2用parseInt解析数字，并求和</h2><p>实现效果：</p>
@@ -3851,7 +3852,7 @@
     <link href="http://levonlin.info/2016/03/11/%E8%A1%A8%E5%8D%95%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/"/>
     <id>http://levonlin.info/2016/03/11/表单知识总结/</id>
     <published>2016-03-11T10:35:59.000Z</published>
-    <updated>2016-08-12T15:40:58.000Z</updated>
+    <updated>2016-09-27T06:52:09.000Z</updated>
     
     <content type="html"><![CDATA[<p>表单是前端交互的重要部分，这里总结了我在使用表单元素时的一些经验和遇到的问题。</p>
 <h2 id="记得设置元素的name属性"><a href="#记得设置元素的name属性" class="headerlink" title="记得设置元素的name属性"></a>记得设置元素的name属性</h2><p>一个我最近犯的错：<code>input</code>元素不设置<code>name</code>，以为设置了<code>type</code>就自动单选了，光看外表的结果自然被打脸。。。</p>
@@ -3888,7 +3889,7 @@
     <link href="http://levonlin.info/2016/03/09/%E6%8A%8A%E5%8D%9A%E5%AE%A2%E4%BB%8Egitcafe%E8%BF%81%E7%A7%BB%E5%88%B0coding/"/>
     <id>http://levonlin.info/2016/03/09/把博客从gitcafe迁移到coding/</id>
     <published>2016-03-09T08:42:57.000Z</published>
-    <updated>2016-08-12T15:40:58.000Z</updated>
+    <updated>2016-09-27T06:52:09.000Z</updated>
     
     <content type="html"><![CDATA[<p>最近gitcafe被coding收购了，gitcafe上的所有项目很快就要被清空。而官方给用户的出路就是迁移到新东家coding，虽然听到这消息挺烦的，但作为免费用户也不好说什么。而且听说coding的服务要比gitcafe稳定得多，这样也好，希望不会像gitcafe一样隔三差五就访问不了吧。。。接下来，我就记录下我迁移的过程：</p>
 <h2 id="coding-pages"><a href="#coding-pages" class="headerlink" title="coding-pages"></a>coding-pages</h2><p>首先在gitcafe按官方指示进行项目一键迁移，把所有仓库都导到coding上去，这一步倒是很快，如果没有使用页面服务什么的就到此为止了。但是对于我这种原来把博客也托管在gitcafe上面的，还得再去了解了解<a href="https://coding.net/help/doc/pages/index.html" target="_blank" rel="external">coding上pages服务</a>。</p>
